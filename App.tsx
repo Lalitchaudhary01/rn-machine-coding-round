@@ -2,12 +2,14 @@ import React from 'react';
 import { View,  StyleSheet } from 'react-native';
 import Counter from './src/components/Counter';
 import TrefficLight from './src/components/TrefficLight';
+import TogggleTheme from './src/components/TogggleTheme';
 
 export default function App() {
   return (
     <View style={styles.container}>
       {/* <Counter/> */}
-      <TrefficLight/>
+      {/* <TrefficLight/> */}
+      <TogggleTheme/>
     </View>
   );
 }
