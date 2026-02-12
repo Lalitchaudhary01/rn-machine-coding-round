@@ -1,11 +1,13 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View,  StyleSheet } from 'react-native';
 import Counter from './src/components/Counter';
+import TrefficLight from './src/components/TrefficLight';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Counter/>
+      {/* <Counter/> */}
+      <TrefficLight/>
     </View>
   );
 }
@@ -17,9 +19,5 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  title: {
-    fontSize: 24,
-    fontWeight: 'bold',
-    color: '#333',
-  },
+  
 });

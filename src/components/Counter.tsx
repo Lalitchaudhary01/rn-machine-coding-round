@@ -13,6 +13,8 @@ const Counter = () => {
       const reset = () => {
         setCount(0);
       }
+
+      
   return (
     <View>
       <Text style={styles.title}>Counter</Text>
