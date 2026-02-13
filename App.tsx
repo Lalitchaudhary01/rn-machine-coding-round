@@ -1,9 +1,12 @@
 import React from 'react';
 import { View,  StyleSheet } from 'react-native';
-import Counter from './src/components/Counter';
-import TrefficLight from './src/components/TrefficLight';
-import TogggleTheme from './src/components/TogggleTheme';
-import StopWatch from './src/components/StopWatch';
+import PasswordStrength from './src/components/PasswordStrength';
+// import Counter from './src/components/Counter';
+// import TrefficLight from './src/components/TrefficLight';
+// import TogggleTheme from './src/components/TogggleTheme';
+// import StopWatch from './src/components/StopWatch';
+// import CountdownTimer from './src/components/CountdownTimer';
+// import Charactercounter from './src/components/Charactercounter';
 
 export default function App() {
   return (
@@ -11,7 +14,10 @@ export default function App() {
       {/* <Counter/> */}
       {/* <TrefficLight/> */}
       {/* <TogggleTheme/> */}
-      <StopWatch/>
+      {/* <StopWatch/> */}
+      {/* <CountdownTimer/> */}
+      {/* <Charactercounter/> */}
+      <PasswordStrength/>
     </View>
   );
 }
