@@ -1,6 +1,7 @@
 import React from 'react';
 import { View,  StyleSheet } from 'react-native';
 import OtpInput from './src/components/OtpInput';
+import Todo from './src/components/Todo';
 // import PasswordStrength from './src/components/PasswordStrength';
 // import Counter from './src/components/Counter';
 // import TrefficLight from './src/components/TrefficLight';
@@ -19,7 +20,8 @@ export default function App() {
       {/* <CountdownTimer/> */}
       {/* <Charactercounter/> */}
       {/* <PasswordStrength/> */}
-      <OtpInput/>
+      {/* <OtpInput/> */}
+      <Todo/>
     </View>
   );
 }
