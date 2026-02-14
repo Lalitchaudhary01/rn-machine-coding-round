@@ -1,6 +1,7 @@
 import React from 'react';
 import { View,  StyleSheet } from 'react-native';
-import PasswordStrength from './src/components/PasswordStrength';
+import OtpInput from './src/components/OtpInput';
+// import PasswordStrength from './src/components/PasswordStrength';
 // import Counter from './src/components/Counter';
 // import TrefficLight from './src/components/TrefficLight';
 // import TogggleTheme from './src/components/TogggleTheme';
@@ -17,7 +18,8 @@ export default function App() {
       {/* <StopWatch/> */}
       {/* <CountdownTimer/> */}
       {/* <Charactercounter/> */}
-      <PasswordStrength/>
+      {/* <PasswordStrength/> */}
+      <OtpInput/>
     </View>
   );
 }
