@@ -4,6 +4,7 @@ import OtpInput from './src/components/OtpInput';
 import Todo from './src/components/Todo';
 import Faq from './src/components/Faq';
 import SearchLocal from './src/components/SearchLocal';
+import AddtoCart from './src/components/AddtoCart';
 // import PasswordStrength from './src/components/PasswordStrength';
 // import Counter from './src/components/Counter';
 // import TrefficLight from './src/components/TrefficLight';
@@ -24,8 +25,9 @@ export default function App() {
       {/* <PasswordStrength/> */}
       {/* <OtpInput/> */}
       {/* <Todo/> */}
-      <Faq/>
-      <SearchLocal/>
+      {/* <Faq/>
+      <SearchLocal/> */}
+      <AddtoCart/>
     </View>
   );
 }
